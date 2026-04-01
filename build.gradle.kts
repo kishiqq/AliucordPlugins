@@ -11,7 +11,7 @@ buildscript {
     }
     dependencies {
         classpath("com.android.tools.build:gradle:7.0.4")
-        classpath("com.github.Aliucord:gradle:main-SNAPSHOT")
+        classpath("com.aliucord:gradle:main-SNAPSHOT")
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.30")
     }
 }
@@ -38,8 +38,8 @@ subprojects {
     apply(plugin = "kotlin-android")
 
     aliucord {
-        val baseGithubUrl = "https://raw.githubusercontent.com/scrazzz/AliucordPlugins"
-        author("scruz", 794527403580981248L)
+        val baseGithubUrl = "https://raw.githubusercontent.com/kishiqq/AliucordPlugins"
+        author("okk04", 794527403580981248L)
         updateUrl.set("$baseGithubUrl/builds/updater.json")
         buildUrl.set("$baseGithubUrl/builds/%s.zip")
     }
